@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  padding: 25px;
+}
+
+nav>ul>li {
+  list-style: none;
+  margin: 0px;
+}
+
+nav>ul>li>a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.active{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(189, 27, 27);
+}
